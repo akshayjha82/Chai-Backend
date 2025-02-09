@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "First project in backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
     "api"
   ],
   "author": "Akshay Jha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
